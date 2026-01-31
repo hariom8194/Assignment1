@@ -4,4 +4,5 @@ def factorial(num):
         return 1
     else:
         return num*factorial(num - 1)
-print(f"Factorial of {num} is {factorial(num)}")
+fact = factorial(num)
+print(f"Factorial of {num} is {fact}")
