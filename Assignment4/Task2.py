@@ -4,7 +4,7 @@ with open("output.txt", "wt") as fh:
 print("Data succussfully written to output.txt.")
 input_append = input("Enter additional text to append: ")
 with open("output.txt", "at") as fh:
-    # fh.write("\n")
+    fh.write("\n")
     fh.write(input_append)
 print("Data successfullu appended.")
 print("Final content of output.txt")
